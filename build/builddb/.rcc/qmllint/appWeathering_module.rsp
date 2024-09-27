@@ -1,0 +1,10 @@
+-I
+D:/Hiptech/Weathering/build/builddb
+-I
+C:/Qt/6.7.2/msvc2019_64/./qml
+--resource
+D:/Hiptech/Weathering/build/builddb/.qt/rcc/qmake_Weathering.qrc
+--resource
+D:/Hiptech/Weathering/build/builddb/.qt/rcc/appWeathering_raw_qml_0.qrc
+--module
+Weathering

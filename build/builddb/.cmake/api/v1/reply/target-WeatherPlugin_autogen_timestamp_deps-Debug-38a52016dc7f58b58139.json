@@ -1,0 +1,31 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"WeatherPlugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "WeatherPlugin_autogen_timestamp_deps::@55f85f33a6b9ff4c6259",
+	"isGeneratorProvided" : true,
+	"name" : "WeatherPlugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "WeatherPlugin",
+		"source" : "WeatherPlugin"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

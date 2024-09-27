@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Weathering">
+    <file alias="qmldir">D:/Hiptech/Weathering/build/builddb/Weathering/qmldir</file>
+  </qresource>
+</RCC>
+

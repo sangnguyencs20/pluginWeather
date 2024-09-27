@@ -1,0 +1,79 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "WeatherPlugin",
+            "interfaces": [
+                [
+                    {
+                        "className": "PluginBase",
+                        "id": "\"PluginBase\""
+                    }
+                ]
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "message",
+                    "notify": "messageChanged",
+                    "read": "message",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setMessage"
+                }
+            ],
+            "qualifiedClassName": "WeatherPlugin",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "messageChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "location",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "fetchApi",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        }
+                    ],
+                    "name": "onDataChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "PluginBase"
+                }
+            ]
+        }
+    ],
+    "inputFile": "weatherplugin.h",
+    "outputRevision": 68
+}

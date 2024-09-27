@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "PluginBase",
+            "object": true,
+            "qualifiedClassName": "PluginBase",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "WeatherPluginInterface.h",
+    "outputRevision": 68
+}

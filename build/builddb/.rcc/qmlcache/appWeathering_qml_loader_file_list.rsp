@@ -1,0 +1,5 @@
+--resource
+D:/Hiptech/Weathering/build/builddb/.qt/rcc/qmake_Weathering.qrc
+--resource
+D:/Hiptech/Weathering/build/builddb/.qt/rcc/appWeathering_raw_qml_0.qrc
+/qt/qml/Weathering/Main.qml

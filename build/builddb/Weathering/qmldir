@@ -1,0 +1,5 @@
+module Weathering
+typeinfo appWeathering.qmltypes
+prefer :/qt/qml/Weathering/
+Main 1.0 Main.qml
+
