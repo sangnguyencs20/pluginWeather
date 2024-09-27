@@ -7,7 +7,7 @@ WeatherPlugin::WeatherPlugin() : m_manager(new QNetworkAccessManager(this))
 
 void WeatherPlugin::fetchApi(const QString location)
 {
-    QString apiKey = "3938ef421707b2b8b857658159dc3c6c";
+    QString apiKey = "";
     QString url = QString("http://api.openweathermap.org/data/2.5/weather?q=%1&appid=%2").arg(location, apiKey);
 
     QNetworkRequest request((QUrl(url)));
@@ -39,6 +39,7 @@ void WeatherPlugin::onDataChanged(QNetworkReply *reply)
     if (reply->error() == QNetworkReply::NoError) {
         QByteArray response = reply->readAll();  // Read the response data
         QJsonDocument jsonDoc = QJsonDocument::fromJson(response);  // Parse it as JSON
+        qDebug() << jsonDoc;
 
         if (jsonDoc.isObject()) {
             QJsonObject jsonObj = jsonDoc.object();

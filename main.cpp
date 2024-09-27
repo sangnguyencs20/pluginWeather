@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
 
     if (plugin.load()){
         PluginBase* pluginInstance = qobject_cast<PluginBase*>(plugin.instance());
-        if (pluginInstance){
+        if (pluginInstance) {
             pluginInstance->registerPlugin(&engine);
-        }else{
+        } else {
             qFatal()<< "Cannot cast to WeatherPlugin";
         }
     }else{
