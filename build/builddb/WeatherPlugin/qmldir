@@ -1,4 +1,0 @@
-module WeatherPlugin
-typeinfo WeatherPlugin.qmltypes
-prefer :/qt/qml/WeatherPlugin/
-

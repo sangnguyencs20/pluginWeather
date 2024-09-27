@@ -1,6 +1,0 @@
-set(__QT_DEPLOY_TARGET_WeatherPlugin_FILE D:/Hiptech/Weathering/build/builddb/plugin/WeatherPlugin.dll)
-set(__QT_DEPLOY_TARGET_WeatherPlugin_TYPE MODULE_LIBRARY)
-set(__QT_DEPLOY_TARGET_WeatherPlugin_RUNTIME_DLLS C:/Qt/6.7.2/msvc2019_64/bin/Qt6Qmld.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6Networkd.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6Cored.dll)
-set(__QT_DEPLOY_TARGET_appWeathering_FILE D:/Hiptech/Weathering/build/builddb/appWeathering.exe)
-set(__QT_DEPLOY_TARGET_appWeathering_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_appWeathering_RUNTIME_DLLS C:/Qt/6.7.2/msvc2019_64/bin/Qt6Quickd.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6QmlModelsd.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6Qmld.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6Networkd.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6OpenGLd.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6Guid.dll;C:/Qt/6.7.2/msvc2019_64/bin/Qt6Cored.dll)

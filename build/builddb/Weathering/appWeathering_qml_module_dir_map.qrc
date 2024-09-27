@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Weathering">D:/Hiptech/Weathering/build/builddb/Weathering</file>
-
-  </qresource>
-</RCC>
